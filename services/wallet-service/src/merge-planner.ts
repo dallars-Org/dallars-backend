@@ -1,3 +1,5 @@
+export type MergeBalance = AccountBalanceInput;
+
 export interface AccountBalanceInput {
   asset: string;
   balance: string;

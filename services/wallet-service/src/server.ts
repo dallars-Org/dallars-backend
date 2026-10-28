@@ -961,7 +961,7 @@ export function buildServer(deps: WalletServiceDeps): FastifyInstance {
     const plan = buildMergePlan(
       session.contractId,
       parsed.data.destinationContractId,
-      parsed.data.balances ?? [],
+      (parsed.data.balances ?? []).map(b => ({ asset: b.asset, balance: b.amount })),
     );
 
     if (isDryRun) {
