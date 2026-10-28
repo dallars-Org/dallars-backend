@@ -1,6 +1,6 @@
-# Vellar Backend & Contracts
+# Dallars Backend & Contracts (dallars-backend)
 
-This repository contains the backend microservices, infrastructure, and Soroban smart contracts for the **Vellar** platform.
+This repository contains the backend microservices, infrastructure, and Soroban smart contracts for the **Dallars** platform.
 
 ## Layout
 
